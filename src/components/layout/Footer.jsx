@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const quickLinks = [
-  { label: "About Us", href: "/About" },
-  { label: "Services", href: "/Blog" },
-  { label: "Privacy Policy", href: "/" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Events", href: "/events" },
+  { label: "Team", href: "/team" },
 ];
 
 const socialLinks = [
@@ -25,7 +27,7 @@ const Footer = () => (
         <ul>
           {quickLinks.map(({ label, href }) => (
             <li key={label}>
-              <a href={href}>{label}</a>
+              <Link to={href}>{label}</Link>
             </li>
           ))}
         </ul>
@@ -42,7 +44,7 @@ const Footer = () => (
       </nav>
     </div>
     <div className="site-footer__bottom">
-      <a className="site-footer__brand" href="/">Finance Club <span>· NIT Silchar</span></a>
+      <Link className="site-footer__brand" to="/">Finance Club <span>· NIT Silchar</span></Link>
       <p>© 2026 Finance &amp; Investment Club, NITS. All rights reserved.</p>
       <a className="site-footer__top" href="#top">Back to top ↑</a>
     </div>

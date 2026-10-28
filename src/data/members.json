@@ -1,0 +1,54 @@
+{
+  "role": {
+    "leader": [
+      {
+        "name": "Kumar Kartikey Raj",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207343/IMG_9321_-_Kumar_kartikey_raj_Yadav.jpg",
+        "role": "Vice President"
+      }
+    ],
+    "heads": [
+      {
+        "name": "Amit Singh",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207348/IMG-20260821-WA0136_-_Amit_Singh.jpg",
+        "role": "Social Media and PR Head"
+      },
+      {
+        "name": "Yash Kumar",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207348/IMG-20260820-WA0228_-_Yash_Kumar.jpg",
+        "role": "Design and Video Editing Head"
+      },
+      {
+        "name": "Chirag Khandelwal",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207347/IMG_2674_-_PIE_BOND.jpg",
+        "role": "PR Head"
+      },
+      {
+        "name": "Aditya Kumar",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207345/IMG-20260216-WA0022_-_ADITYA_KUMAR_2413013.jpg",
+        "role": "Technical Head"
+      },
+      {
+        "name": "Himanshu Kumar Gupta",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207342/IMG-20260215-WA0016_2_-_Himanshu_Kumar_Gupta.jpg",
+        "role": "Content and Research Head"
+      },
+      {
+        "name": "Adarsh Raj",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207344/Snapchat-1859867563_-_Adarsh_Raj.jpg",
+        "role": "Marketing Head"
+      },
+      {
+        "name": "Divesh Daga",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207347/divesh_my_photo_-_Divesh_Daga.png",
+        "role": "Market Analysis Head"
+      },
+      {
+        "name": "Sania Anjum",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207360/IMG_20260820_194301516_-_Sania_Ahmed.jpg",
+        "role": "Event Management Head"
+      }
+    ],
+    "junior-members": []
+  }
+}
