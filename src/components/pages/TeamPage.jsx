@@ -16,7 +16,7 @@ const MemberPhoto = ({ member, featured = false }) => {
       {imageAvailable ? (
         <img
           src={member.photo}
-          alt={`${member.name}, ${member.role}`}
+          alt={member.role ? `${member.name}, ${member.role}` : member.name}
           loading={featured ? "eager" : "lazy"}
           onError={() => setImageAvailable(false)}
         />
@@ -36,7 +36,7 @@ const MemberPhoto = ({ member, featured = false }) => {
 
 const MemberDetails = ({ member, featured = false }) => (
   <div className="team-member__details">
-    <p className="team-member__role">{member.role}</p>
+    {member.role && <p className="team-member__role">{member.role}</p>}
     <h3>{member.name}</h3>
     {featured && (
       <p className="team-member__note">Leading our community forward</p>
@@ -47,6 +47,7 @@ const MemberDetails = ({ member, featured = false }) => (
 const TeamPage = () => {
   const [leader] = members.role.leader;
   const heads = members.role.heads;
+  const juniorTeams = members.role["junior-members"];
 
   return (
     <div className="team-page">
@@ -98,8 +99,42 @@ const TeamPage = () => {
         </div>
       </section>
 
+      <section className="team-juniors" aria-labelledby="team-juniors-title">
+        <div className="team-section-heading" data-reveal>
+          <p className="eyebrow">03 / Junior members</p>
+          <h2 id="team-juniors-title">Growing together.</h2>
+          <p>Meet the members bringing fresh ideas to every department.</p>
+        </div>
+        <div className="team-juniors__groups">
+          {juniorTeams.map(({ team, data }, teamIndex) => (
+            <section
+              className="team-juniors__group"
+              aria-labelledby={`junior-team-${teamIndex}`}
+              key={team}
+            >
+              <h3 id={`junior-team-${teamIndex}`}>{team}</h3>
+              <div className="team-heads__grid">
+                {data.map((member, index) => (
+                  <article
+                    className="team-head-card team-junior-card"
+                    data-reveal
+                    key={member.name}
+                    style={{
+                      "--team-reveal-delay": `${(index % 4) * 75}ms`,
+                    }}
+                  >
+                    <MemberPhoto member={member} />
+                    <MemberDetails member={member} />
+                  </article>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </section>
+
       <p className="team-page__footer-note" data-reveal>
-        More of our team coming soon <span aria-hidden="true">↗</span>
+        Every idea starts with a team <span aria-hidden="true">↗</span>
       </p>
     </div>
   );

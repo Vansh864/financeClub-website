@@ -789,7 +789,8 @@ ul {
 }
 
 .team-leadership,
-.team-heads {
+.team-heads,
+.team-juniors {
   width: min(100%, 1120px);
   margin: 0 auto;
 }
@@ -983,6 +984,23 @@ ul {
   margin-top: 6rem;
 }
 
+.team-juniors {
+  margin-top: 6rem;
+}
+
+.team-juniors__groups {
+  display: grid;
+  gap: 2.75rem;
+}
+
+.team-juniors__group > h3 {
+  margin: 0 0 1.25rem;
+  color: var(--color-green);
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.4vw, 1.8rem);
+  letter-spacing: -0.05em;
+}
+
 .team-heads__grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1041,6 +1059,10 @@ ul {
 
 .team-head-card .team-member__details h3 {
   font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+.team-junior-card .team-member__details {
+  min-height: 0;
 }
 
 .team-page__footer-note {
@@ -1364,6 +1386,10 @@ ul {
   }
 
   .team-heads {
+    margin-top: 4.5rem;
+  }
+
+  .team-juniors {
     margin-top: 4.5rem;
   }
 

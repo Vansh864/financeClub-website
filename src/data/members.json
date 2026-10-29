@@ -14,14 +14,14 @@
         "role": "Social Media and PR Head"
       },
       {
+        "name": "Chirag Khandelwal",
+        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207347/IMG_2674_-_PIE_BOND.jpg",
+        "role": "Social Media and PR Head"
+      },
+      {
         "name": "Yash Kumar",
         "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207348/IMG-20260820-WA0228_-_Yash_Kumar.jpg",
         "role": "Design and Video Editing Head"
-      },
-      {
-        "name": "Chirag Khandelwal",
-        "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793207347/IMG_2674_-_PIE_BOND.jpg",
-        "role": "PR Head"
       },
       {
         "name": "Aditya Kumar",
@@ -49,6 +49,138 @@
         "role": "Event Management Head"
       }
     ],
-    "junior-members": []
+    "junior-members": [
+      {
+        "team": "Design and Video Editing Team",
+        "data": [
+          {
+            "name": "Ayush Raj",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251620/IMG_8840_-_AYUSH_RAJ.jpg"
+          },
+          {
+            "name": "Priti",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251617/IMG-20260824-WA0007_-_Priti.jpg"
+          },
+          {
+            "name": "Ayush Kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251616/IMG_20260825_000719.jpg_-_Ayush_Kumar.jpg"
+          }
+        ]
+      },
+      {
+        "team": "Marketing Team",
+        "data": [
+          {
+            "name": "Krish Kumar Sah",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251621/IMG_6087_-_Krish_kumar_Sah.png"
+          },
+          {
+            "name": "Samarpita Sarkar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251617/1000336691-removebg-preview_-_SAMARPITA_SARKAR.jpg"
+          },
+          {
+            "name": "Ankit Prajapati",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251613/IMG-20260818-WA0061_-_Hidden_Talent.jpg"
+          },
+          {
+            "name": "Saurabh Nath",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251613/IMG_2659_-_Saurabh_Nath.jpg"
+          },
+          {
+            "name": "PRANAB DEB",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251613/Pranab_Photo_-_PRANAB_DEB.jpg"
+          },
+          {
+            "name": "Rishabh",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251612/Rishabh.jpg"
+          }
+        ]
+      },
+      {
+        "team": "Technical Team",
+        "data": [
+          {
+            "name": "Kumar Pranjal",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251620/IMG-20260301-WA1039_2_-_Kumar_Pranjal.jpg"
+          },
+          {
+            "name": "Abhiraj",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251613/fic_-_Abhiraj_Chaudhary.jpg"
+          },
+          {
+            "name": "Vansh Dokania",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793252477/WhatsApp_Image_2026-10-29_at_11.10.41_AM.jpg"
+          },
+          {
+            "name": "Yogesh Kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793252477/WhatsApp_Image_2026-10-29_at_11.03.48_AM.jpg"
+          }
+        ]
+      },
+      {
+        "team": "Market Analysis Team",
+        "data": [
+          {
+            "name": "Vipul Singh",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251619/IMG_20250615_220646_-_Vipul_Singh.jpg"
+          },
+          {
+            "name": "Krish Pathania",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251619/IMG20260415144646_-_Krish_Pathania.jpg"
+          },
+          {
+            "name": "Nayan kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251615/IMG_0364-Enhanced-NR.jpg_-_Nayan_Kumar.jpg"
+          },
+          {
+            "name": "Sandipan Padhy",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251612/IMG_20260902_105246_-_SANDIPAN_PADHY.jpg"
+          }
+        ]
+      },
+      {
+        "team": "Event Management Team",
+        "data": [
+          {
+            "name": "Punywan Kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251618/IMG_20260802_125700_570_-_PUNYAWAN_KUMAR.png"
+          },
+          {
+            "name": "Amar Kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251618/IMG_1297_-_Amar_Kumar.jpg"
+          },
+          {
+            "name": "Shreyash priyadarshi",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251612/IMG-20260902-WA0003_-_Shreyash_Priyadarshi.jpg"
+          },
+          {
+            "name": "Arvind Kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251612/20260710_194758.heic.heic"
+          }
+        ]
+      },
+      {
+        "team": "Content and Research Team",
+        "data": [
+          {
+            "name": "Ankit Gupta",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251614/IMG-20260825-WA0029_-_Ankit_Gupta.jpg"
+          },
+          {
+            "name": "Faizan Afzal",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251613/IMG_20230807_102127-removebg-preview_-_Faizan_Afzal.jpg"
+          }
+        ]
+      },
+      {
+        "team": "Social Media and PR Team",
+        "data": [
+          {
+            "name": "Pankaj Kumar",
+            "photo": "https://res.cloudinary.com/goznga4i/image/upload/v1793251614/IMG_1826_-_Kush_Ji.jpg"
+          }
+        ]
+      }
+    ]
   }
 }
